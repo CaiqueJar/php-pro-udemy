@@ -1,0 +1,19 @@
+{
+    "name": "caique/php-profissional",
+    "description": "PHP Profissional",
+    "authors": [
+        {
+            "name": "CaiqueJar",
+            "email": "caiquedm11@gamil.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php"
+        ],
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
